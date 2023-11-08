@@ -1,0 +1,28 @@
+{
+
+	"STS":1,
+	COMPANY_DATA:{
+		"NAME":"",
+		"ADD":"",
+		"MOBILE":"",
+	},
+	BILL_DETAILS:{
+		"BILLNO":"",
+		"DOCDATE":"",
+		"USER":"",
+		"DEVICE":"",
+	},
+	ITEM_LIST:{
+		"DISHCODE":"",
+		"DISHDESCP":"",
+		"QTY":"",
+		"RATE":"",
+		"TOTAL":"",
+	},
+	TOTAL:{
+		"NET_TOTAL":""
+	},
+	MESSAGE:{
+		BOTTOM_MESSAGE:""
+	},
+}
