@@ -11,8 +11,9 @@ import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 
 class ApiManager {
-  //var baseUrl = "http://laptop-vi4dgus9:1103/"; //lap
-  //var baseUrl = "http://192.168.0.103:1103/"; //lap
+  var baseUrl = "http://laptop-vi4dgus9:1103/"; //lap
+//  var baseUrl = "http://192.168.0.103:1103/"; //lap
+  //var baseUrl = "http://192.168.0.104:1106/"; //lap
   //var baseUrl = "http://POS3:1100/"; //Dubai Mall
   //var baseUrl = "http://localhost:19695/"; //lap
   //var baseUrl = "http://beamsdts-001-site2.atempurl.com/"; //demo
@@ -28,7 +29,8 @@ class ApiManager {
   //var baseUrl = "http://DESKTOP-A6IQ07D:1100/"; //CHINA
   //var baseUrl = "https://beams.hambana.co/"; //aLAIN
 
-  var baseUrl = "http://server:1100/"; //MANDI
+  //var baseUrl = "http://server:1100/"; //MANDI
+  //var baseUrl = "http://10.255.254.100:1100/"; //MANDI IP
 
   var company = Global().wstrCompany;
   var yearcode = Global().wstrYearcode;
