@@ -906,13 +906,13 @@ class _MenuLState extends State<MenuL> {
                                   },
 
                                 ):gapHC(0),
-                                g.wstrOrderType !="D"?
+
                                 RoundedInputField(
                                   hintText: ( g.wstrRoomYN=="Y"?mfnLng("Coupon No"):(g.wstrDeliveryMode!=""?mfnLng('Ref No'):mfnLng('Vehicle No'))),
                                   labelYn: 'Y',
                                   txtRadius: 5,
                                   txtController: txtVehicleNo,
-                                ):gapHC(0),
+                                ),
                                 // RoundedInputField(
                                 //   hintText: 'Coupon No',
                                 //   labelYn: 'Y',

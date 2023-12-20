@@ -78,7 +78,8 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
     g.wstrDirectPrintYn = "N";
     g.wstrImgYn = "N";
     g.wstrBistroLng = "ENGLISH";
-    g.wstrBaseUrl = "https://10.255.254.33:1100/";
+    //g.wstrBaseUrl = "https://10.255.254.33:1100/";
+    g.wstrBaseUrl = "http://localhost:19695/";
     lstrToday = DateTime.parse(formatDate.format(now));
     startTime();
     fnClearDualDisplay();

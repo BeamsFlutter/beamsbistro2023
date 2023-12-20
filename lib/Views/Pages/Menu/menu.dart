@@ -23,6 +23,7 @@ class _MenuState extends State<Menu> {
 
    var wstrPageMode= '';
 
+
    var txtQty = new TextEditingController();
    var txtNote = new TextEditingController();
    var lstrQty = 0;
